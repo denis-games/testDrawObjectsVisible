@@ -1,8 +1,8 @@
 /// @description 
-var _left = keyboard_check(vk_left);
-var _right = keyboard_check(vk_right);
-var _up = keyboard_check(vk_up);
-var _down = keyboard_check(vk_down);
+var _left = input_check("left");
+var _right = input_check("right");
+var _up = input_check("up");
+var _down = input_check("down");
 
 var _horizontal = _right - _left;
 var _vertical = _down - _up;
